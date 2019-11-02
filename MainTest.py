@@ -20,7 +20,7 @@ window.configure(background='white')
 
 
 
-navtext = tk.Text(window, height=3, width=1000, background='#00FFFF')
+navtext = tk.Text(window, height=3, width=1000, background='#6DA295')
 navtext.tag_configure('color', foreground='#000000')
 navtext.tag_configure('big', font=('Proxima Nova Soft', 30, 'bold'))
 navtext.pack(anchor="nw", padx=0, pady=0)
