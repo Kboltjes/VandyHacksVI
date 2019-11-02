@@ -27,7 +27,7 @@ navtext.pack(anchor="nw", padx=0, pady=0)
 navtext.insert(tk.END, "Hillman", 'big')
 navtext.config(state=tk.DISABLED)
 
-instructtext = tk.Text(window, height=10, width=110, background='grey')
+instructtext = tk.Text(window, height=10, width=110, background='lightgrey')
 instructtext.tag_configure('color', foreground='#000000', font=('Georgia', 18))
 instructtext.pack(anchor="ne", side="right", padx=10, pady=10)
 instructtext.insert(tk.END, "These are the instructions....", 'color')
